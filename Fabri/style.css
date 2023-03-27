@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(128, 128, 128);
+  height: 100vh;
+}
+label {
+  color: rgb(0, 0, 0);
+  font-family:'Oswald', sans-serif;
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+input{
+  height: 40px;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  color: #000;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  color: crimson;
+  filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  color: cornsilk;
+  filter: drop-shadow(1px 1px 2px #000);
+}
+
+.tituloPrincipal{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: cornsilk;
+  filter: drop-shadow(1px 1px 2px #000);
+}
+
+/* CONTENEDOR GLOBAL */
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(128, 128, 128);
+}
+
+/* CONTENEDOR DE PAGINA INICIO */
+.contenedorPrincipal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #3f3f3f;
+  box-shadow: 2px 2px 5px #000;
+}
+
+.contenedorPrincipal label, .contenedorPrincipal input, .contenedorPrincipal button{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+/* CONTENIDO PRA REALIZAR CALCULO */
+.contenedor__input{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3f3f3f;
+  padding: 30px;
+  width: 90%;
+  overflow:auto;
+  margin-top: 40px;
+  box-shadow: 2px 2px 5px #000;;
+}
+
+.contenedor__input label{
+  margin-bottom: 10px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.contenedor__input input{
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#button{
+  margin-top: 10px;
+}
+
+/* CONTENEDOR RESULTADOS */
+
+.resul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+  width: 90%;
+}

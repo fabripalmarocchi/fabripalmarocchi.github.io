@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="BBQ_002.ico">
+    <title>Calculadora de asado</title>
+  </head>
+  <body>    
+    <div class="contenedor">
+      <h1 class="tituloPrincipal">Divide tus cuentas</h1>
+      <div class="contenedorPrincipal">
+        <label class="text-light shadow-sm"> Ingresar integrantes </label>
+        <input type="number" class="inputInicio" id="cantidad" />
+        <button id="buttonA" class="btn btn-primary shadow-sm">Añadir</button>
+      </div>
+      <div class="contenedor__input d-none">        
+      </div>
+      <button id="button" class="btn btn-primary shadow-sm d-none">Calcular</button>      
+      <div class="resul d-none">        
+        <h2 class="resultado"></h2>
+      </div>
+      <a href="index.html" id = "volver" class="btn btn-primary shadow-sm d-none">Volver a Calcular</a>
+    </div>
+    <script src="fundionalidad.js"></script>
+  </body>
+</html>
